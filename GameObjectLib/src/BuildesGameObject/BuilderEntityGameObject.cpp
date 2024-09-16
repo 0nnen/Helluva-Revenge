@@ -91,7 +91,7 @@ GameObject* BuilderEntityGameObject::CreateCharacterGameObject(const std::string
 
 	RigidBody2D* rigidBody2D = gameObject->CreateComponent<RigidBody2D>();
 	rigidBody2D->SetIsGravity(true);
-	rigidBody2D->SetMass(0.5);
+	rigidBody2D->SetMass(0.37f);
 	rigidBody2D->SetMaxVelocity(Maths::Vector2f(300, 5000));
 
 
